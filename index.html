@@ -13,23 +13,17 @@
 
     <nav>
         <div class="main-nav container flex">
-            <a href="#" onclick="reload()" class="company-logo">
+            <a href="/" class="company-logo">
                 <img src="./assets/logo.png" alt="company logo">
             </a>
             <div class="nav-links">
                 <ul class="flex">
-                    <li class="hover-link nav-item" id="world" onclick="onNavItemClick('world')">World</li>
-                    <li class="hover-link nav-item" id="politics" onclick="onNavItemClick('politics')">Politics</li>
-                    <li class="hover-link nav-item" id="business" onclick="onNavItemClick('business')">Business</li>
-                    <li class="hover-link nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</li>
-                    <li class="hover-link nav-item" id="technology" onclick="onNavItemClick('technology')">Technology
-                    </li>
-                    <li class="hover-link nav-item" id="sports" onclick="onNavItemClick('sports')">Sports</li>
+                    <li class="hover-link nav-item" id="world"><a href="./world.html">World</a></li>
+                    <li class="hover-link nav-item" id="politics"><a href="./politics.html">Politics</a></li>
+                    <li class="hover-link nav-item" id="business"><a href="./business.html">Business</a></li>
+                    <li class="hover-link nav-item" id="finance"><a href="./finance.html">Finance</a></li>
+                    <li class="hover-link nav-item" id="sports"><a href="./sports.html">Sports</a></li>
                 </ul>
-            </div>
-            <div class="search-bar flex">
-                <input id="search-text" type="text" class="news-input" placeholder="e.g. Science">
-                <button id="search-button" class="search-button">Search</button>
             </div>
         </div>
     </nav>
@@ -37,7 +31,1388 @@
 
     <main>
         <div class="cards-container container flex" id="cards-container">
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://cdn.vox-cdn.com/thumbor/mymSWP-iuiC2iSm_a4hmDs4uWOQ=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/25066336/236801_Sustainable_Tires_Nico_Brausch.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Tires are saving us — and killing us, too</h3>
+                    <h6 class="news-source" id="news-source">The Verge · 11/17/2023, 8:45:00 PM</h6>
+                    <p class="news-desc" id="news-desc">Tires create a lot of harm to the environment. Thankfully, most
+                        major manufacturers are actively exploring ways to lower their environmental impact, just in
+                        time for the onslaught of heavy EVs.</p>
+                </div>
+            </div>
 
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/m_HWxG5D3u.hGG9p3ZzcLA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-10/4d0f66e0-7817-11ee-b9df-a10c2ab1fedb"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">How the meandering legal definition of 'fair use' cost us Napster but gave us
+                        Spotify</h3>
+                    <h6 class="news-source" id="news-source">Engadget · 11/5/2023, 10:30:18 PM</h6>
+                    <p class="news-desc" id="news-desc">The internet's "enshittification," as veteran journalist and
+                        privacy advocate Cory Doctorow&nbsp;describes it, began decades before TikTok made the scene.
+                        Elder millennials remember the good old days of Napster — followed by the much worse old days of
+                        Napster bein…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/1pmIuCjRVyTRm7HHmMlyag--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-10/116fd030-783e-11ee-9fe1-1d77eded7d68"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">The Morning After: US government announces AI Safety Institute</h3>
+                    <h6 class="news-source" id="news-source">Engadget · 11/1/2023, 6:15:51 PM</h6>
+                    <p class="news-desc" id="news-desc">Following President Joe Biden’s sweeping executive order
+                        regarding AI development last week, at the UK AI Safety Summit yesterday, Vice President Kamala
+                        Harris announced even more machine learning initiatives, as well as the establishment of the
+                        United States…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/65256ea05f11119fb77b3aab/191:100/w_1280,c_limit/NSA-Officer-Used-Spy-Tool-on-Dating-Site-Matches-Security-GettyImages-690591674.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">A Powerful Tool US Spies Misused to Stalk Women Faces Its Potential Demise</h3>
+                    <h6 class="news-source" id="news-source">Wired · 10/24/2023, 6:00:00 PM</h6>
+                    <p class="news-desc" id="news-desc">Though often viewed as the “crown jewel” of the US intelligence
+                        community, fresh reports of abuse by NSA employees and chaos in the US Congress put the tool's
+                        future in jeopardy.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://cdn.vox-cdn.com/thumbor/Uw9bKQHNL8ONxeaqtgWdnW0bEyg=/0x0:3000x2167/1200x628/filters:focal(1500x1084:1501x1085)/cdn.vox-cdn.com/uploads/chorus_asset/file/25025711/Snapdragon_8_Gen_3_AI_QRD.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Qualcomm’s Snapdragon 8 Gen 3 moves AI out of the cloud and onto your phone</h3>
+                    <h6 class="news-source" id="news-source">The Verge · 10/25/2023, 5:17:08 AM</h6>
+                    <p class="news-desc" id="news-desc">The AI-everything future of phones is coming at us fast.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/653c52062692abf70732f9b0/191:100/w_1280,c_limit/Business-Biden-AI-Briefing-1712266109.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Joe Biden’s Sweeping New Executive Order Aims to Drag the US Government into the
+                        Age of ChatGPT</h3>
+                    <h6 class="news-source" id="news-source">Wired · 10/30/2023, 4:00:00 PM</h6>
+                    <p class="news-desc" id="news-desc">President Joe Biden issued a wide-ranging executive order on
+                        artificial intelligence with measures to boost US tech talent and prevent AI being used to
+                        threaten national security.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/6545085f5b8d1abca81bc58d/191:100/w_1280,c_limit/TCL-Giveaway-CBS-Gear.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">TV Giveaway: 65-Inch TCL Q Series</h3>
+                    <h6 class="news-source" id="news-source">Wired · 11/14/2023, 12:00:00 AM</h6>
+                    <p class="news-desc" id="news-desc">Two grand prize winners will get a 65-inch TCL Q Class TV. (Open
+                        to the US only. See rules for details).</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/653c26a5a4dd0111031f340f/191:100/w_1280,c_limit/Security-News-This-Week--A-Dull-Cryptominer-Is-Actually-Part-of-a-Sophisticated-and-Expansive-Espionage-Campaign-Security-GettyImages-1087732912.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">This Cryptomining Tool Is Stealing Secrets</h3>
+                    <h6 class="news-source" id="news-source">Wired · 10/28/2023, 8:00:00 PM</h6>
+                    <p class="news-desc" id="news-desc">Plus: Details emerge of a US government social media-scanning
+                        tool that flags “derogatory” speech, and researchers find vulnerabilities in the global mobile
+                        communications network.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/TuTSrtZHCKt6MbAR4xdkyw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2022-11/2357dc80-6a97-11ed-bbe7-4db95d418c46"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US Senate begins collecting evidence on how AI could thwart robocalls</h3>
+                    <h6 class="news-source" id="news-source">Engadget · 10/25/2023, 5:25:53 PM</h6>
+                    <p class="news-desc" id="news-desc">Robocalls are rampant, using AI and other tools to disrupt
+                        day-to-day life and scam Americans out of their money through impersonations of family members,
+                        phone providers and more. On October 24, the Senate Commerce Committee's Subcommittee on
+                        Communications,…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/Q1Lz6jd2UrgxbidSMQ6lXw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-11/ff885a20-883e-11ee-beef-4c3432c212be"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US Senator calls for the public release of AT&amp;T ‘Hemisphere’ surveillance
+                        records</h3>
+                    <h6 class="news-source" id="news-source">Engadget · 11/21/2023, 3:36:27 PM</h6>
+                    <p class="news-desc" id="news-desc">US Senator Ron Wyden wants the public to know about the details
+                        surrounding the long-running Hemisphere phone surveillance program. Wyden has written US
+                        Attorney General Merrick Garland a letter (PDF), asking him to release additional information
+                        about the pr…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/NwUi9R0rZnqf366BeUMGxg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-02/39978970-b388-11ed-bbdf-68ca8f4d4131"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">NVIDIA may soon announce new AI chips for China to get around US export
+                        restrictions</h3>
+                    <h6 class="news-source" id="news-source">Engadget · 11/11/2023, 5:05:09 PM</h6>
+                    <p class="news-desc" id="news-desc">NVIDIA really, really doesn't want to lose access to China's
+                        massive AI chip market. The company is developing three new AI chips especially for China that
+                        don't run afoul of the latest export restrictions in the US, according to The Wall Street
+                        Journal and R…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/654d4b3d71250da0bf23bfc8/191:100/w_1280,c_limit/The-NSA-Is-Seriously-Freaked-Out-About-the-Threat-of-Chinese-Hackers-in-US-Critical-Infrastructure-Security-GettyImages-1041680676.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">The NSA Seems Pretty Stressed About the Threat of Chinese Hackers in US Critical
+                        Infrastructure</h3>
+                    <h6 class="news-source" id="news-source">Wired · 11/11/2023, 4:42:27 AM</h6>
+                    <p class="news-desc" id="news-desc">US government officials continue to warn that the public and
+                        private sectors need to identify and root out China-backed attackers lurking in industrial
+                        control systems.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/65554ccd0ddc9160a6730290/191:100/w_1280,c_limit/syphillis-science-GettyImages-1177366643.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">A Surge in Babies Born With Syphilis Is a Warning Sign</h3>
+                    <h6 class="news-source" id="news-source">Wired · 11/16/2023, 8:00:00 PM</h6>
+                    <p class="news-desc" id="news-desc">Although transmission of syphilis to newborns can be prevented
+                        with a single shot for pregnant women, cases in the US rose tenfold in a decade.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/653b1f180fde2c56f0fd2d86/191:100/w_1280,c_limit/Cruise-Self-Driving-Cars-Nationwide-Business-GettyImages-1590511985.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">GM’s Cruise Halts Self-Driving Operations Across the US After Regulator Safety
+                        Fears</h3>
+                    <h6 class="news-source" id="news-source">Wired · 10/27/2023, 10:19:08 AM</h6>
+                    <p class="news-desc" id="news-desc">Two days after safety fears led California regulators to
+                        shutdown Cruise’s robotaxis in San Francisco, the company says its fleet in Austin and other US
+                        cities will now operate with human supervision.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/65404268bbee7fc2f21d8874/191:100/w_1280,c_limit/vampirebat-science-MFGAJ9.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">The Vampire Bat Is Moving Closer to the US. That’s a Problem</h3>
+                    <h6 class="news-source" id="news-source">Wired · 10/31/2023, 7:00:00 PM</h6>
+                    <p class="news-desc" id="news-desc">As the climate changes, the bloodthirsty creatures are moving
+                        north from Latin America, bringing the threat of rabies with them.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/65563ef88d6138db7e351b5e/191:100/w_1280,c_limit/US-House-Intelligence-Report-Calls-for-Privacy-Reforms-in-FISA-Surveillance-Security-GettyImages-1767723607.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US Congress Report Calls for Privacy Reforms After FBI Surveillance 'Abuses'
+                    </h3>
+                    <h6 class="news-source" id="news-source">Wired · 11/17/2023, 12:38:35 AM</h6>
+                    <p class="news-desc" id="news-desc">A new report by an oversight committee in the US House of
+                        Representatives says the FBI has routinely violated rules governing FISA's Section 702
+                        surveillance program and must be reined in.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://cdn.vox-cdn.com/thumbor/QmHvbs8YG8jIfQevUpg7sDMMSsw=/0x0:2240x1493/1200x628/filters:focal(1120x747:1121x748)/cdn.vox-cdn.com/uploads/chorus_asset/file/25071184/Humane_Ai_Pin_Business.jpeg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Screens are good, actually</h3>
+                    <h6 class="news-source" id="news-source">The Verge · 11/18/2023, 1:00:00 AM</h6>
+                    <p class="news-desc" id="news-desc">The Humane AI pin lacks a screen in an effort to better connect
+                        us with our surroundings. But here’s the thing: screens are good, actually.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/654c35d398d337ba5af8c649/191:100/w_1280,c_limit/Call-Center-Workers-Bogalusa-strike-Business.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Obamacare Call Center Staff Strike Over Steep Health Care Costs and Scarce
+                        Bathroom Breaks</h3>
+                    <h6 class="news-source" id="news-source">Wired · 11/10/2023, 4:37:54 AM</h6>
+                    <p class="news-desc" id="news-desc">Staff at US federal contractor Maximus claim they only get six
+                        minutes a day to use the bathroom, are monitored by an AI system that reports them for going
+                        off-script, and can’t afford health care.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/65406146dacb7be44fdb6673/191:100/w_1280,c_limit/Biden-White-House-Event-AI-Business-1754109419.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Joe Biden’s Big AI Plan Sounds Scary—but Lacks Bite</h3>
+                    <h6 class="news-source" id="news-source">Wired · 11/1/2023, 12:42:44 AM</h6>
+                    <p class="news-desc" id="news-desc">Joe Biden’s new executive order is billed as the biggest
+                        governmental AI plan ever. Unless he can convince a dysfunctional US Congress and overseas
+                        rivals to play along, its effects will be limited.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/654abc6636e0ffaa55cb3744/191:100/w_1280,c_limit/w30_universal_flu_vaccine_global_health.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">The Long Quest for a Universal Flu Vaccine Finally Takes Its First Steps</h3>
+                    <h6 class="news-source" id="news-source">Wired · 11/10/2023, 7:00:00 PM</h6>
+                    <p class="news-desc" id="news-desc">The search for a shot that could protect us against many
+                        strains—and maybe a pandemic—is notching achievements at last. But the flu’s endless mutation
+                        and our own biology stand in the way.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/7EA6/production/_131522423_gettyimages-1240625770-1.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Jamaal Bowman: US Democrat US lawmaker charged over false Capitol fire alarm
+                    </h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/26/2023, 7:12:58 AM</h6>
+                    <p class="news-desc" id="news-desc">Rep Jamaal Bowman is expected to plead guilty and pay a fine for
+                        the misdemeanour charge.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/12C2E/production/_131664867_c04e6586a74db5ca317a321d6159e483d04078bb.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US veteran gets world's first eye transplant</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/10/2023, 7:20:59 AM</h6>
+                    <p class="news-desc" id="news-desc">The surgery did not restore vision in the grafted eye, but
+                        experts do not rule out the possibility.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/104AD/production/_131533766_d586fb987728e416499cb56a04ab94f545a7ba450_463_3002_16892000x1125.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">How delay to Israel offensive benefits US</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/26/2023, 7:16:31 PM</h6>
+                    <p class="news-desc" id="news-desc">Washington hopes to use a delay in Israel's incursion into Gaza
+                        to shore up protection for its interests.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/13FB5/production/_131654818_p0grlm1c.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Pandas depart US National Zoo for China</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/9/2023, 2:47:23 AM</h6>
+                    <p class="news-desc" id="news-desc">The three giant pandas were on loan from China, as part of
+                        diplomatic relations between both countries.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/654ae8c1428f34179e6b33c2/191:100/w_1280,c_limit/Military-AI-Guardrails-Business-1757360709.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">The US and 30 Other Nations Agree to Set Guardrails for Military AI</h3>
+                    <h6 class="news-source" id="news-source">Wired · 11/9/2023, 1:37:18 AM</h6>
+                    <p class="news-desc" id="news-desc">The tech-centric war in Ukraine and the success of ChatGPT have
+                        prompted new interest in figuring out how to prevent military AI from going awry.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/6552b2fb7b6bb10dd96c59c7/191:100/w_1280,c_limit/heatwave-science-GettyImages-1545303344-(1).jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Here’s How Bad Climate Change Will Get in the US—and Why There’s Still Hope</h3>
+                    <h6 class="news-source" id="news-source">Wired · 11/14/2023, 5:00:00 PM</h6>
+                    <p class="news-desc" id="news-desc">The nation’s Fifth National Climate Assessment paints a dark
+                        portrait of worsening disasters. But it also points toward accelerating progress and a cleaner
+                        future.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/65441eb3957b9a8a40d7ab59/191:100/w_1280,c_limit/DxE_Collage_Final.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">This Is the Ops Manual for the Most Tech-Savvy Animal Liberation Group in the US
+                    </h3>
+                    <h6 class="news-source" id="news-source">Wired · 11/8/2023, 6:00:00 PM</h6>
+                    <p class="news-desc" id="news-desc">For the first time, guerrilla animal rights group Direct Action
+                        Everywhere reveals a guide to its investigative tactics and toolkit, from spy cams to night
+                        vision and drones.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/655b89e9dadcc35dd438a9e1/191:100/w_1280,c_limit/Mysterious-Surveillance-Program-Tracks-%E2%80%98Trillions%E2%80%99-of-Calls,-US-Senator-Says-Security-GettyImages-1302773936.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Secretive White House Surveillance Program Gives Cops Access to Trillions of US
+                        Phone Records</h3>
+                    <h6 class="news-source" id="news-source">Wired · 11/21/2023, 1:25:08 AM</h6>
+                    <p class="news-desc" id="news-desc">A WIRED analysis of leaked police documents verifies that a
+                        secretive government program is allowing federal, state, and local law enforcement to access
+                        phone records of Americans who are not suspected of a crime.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://cdn.vox-cdn.com/thumbor/DaActDGcCnqmmcv4De-z6ymWfpg=/0x338:928x982/1200x628/filters:focal(461x677:462x678)/cdn.vox-cdn.com/uploads/chorus_asset/file/25028821/apple_pay_later_launch.png"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Apple Pay Later is rolling out to all users in the US</h3>
+                    <h6 class="news-source" id="news-source">The Verge · 10/25/2023, 5:17:36 AM</h6>
+                    <p class="news-desc" id="news-desc">Apple Pay Later now appears to be available to all users in the
+                        US. While the buy now, pay later service was launched in early access in March, it was only
+                        available to a limited number of users.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/65455443757cf10102733344/191:100/w_1280,c_limit/clock-dali-science-GettyImages-170005639.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Why You Can’t Stop Reading About Daylight Saving Time</h3>
+                    <h6 class="news-source" id="news-source">Wired · 11/4/2023, 6:00:00 PM</h6>
+                    <p class="news-desc" id="news-desc">In the US, Daylight Saving Time ends and the clocks go back one
+                        hour on November 5. You know this. Google knows this. But here we all are. Again.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://media.wired.com/photos/6552f37819a7ed4496ccd1dc/191:100/w_1280,c_limit/Section-702-AAPI-Security-1328559764.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Asian Americans Raise Alarm Over ‘Chilling Effects’ of Section 702 Surveillance
+                        Program</h3>
+                    <h6 class="news-source" id="news-source">Wired · 11/14/2023, 11:53:14 PM</h6>
+                    <p class="news-desc" id="news-desc">More than 60 groups advocating for Asian American and Pacific
+                        Islander communities are pushing the US Congress to reform the Section 702 surveillance program
+                        as Senate leaders move to renew it.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/9b96ef13e8f459399b669d257665233a.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">25 Modern Christmas Classics You Can Stream Right Now</h3>
+                    <h6 class="news-source" id="news-source">Lifehacker.com · 11/8/2023, 10:30:00 PM</h6>
+                    <p class="news-desc" id="news-desc">Christmas movies have been a tradition for decades, but the days
+                        when we had to watch George Bailey try to jump off of a bridge year after year are well past us.
+                        Holiday movies are an industry in and of themselves, with dozens, if not hundreds of new
+                        seasonal…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/0e64445c712ac3c46edd91b5d090af55.png"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">This Plugin Shows You Where Every Amazon Product Was Made</h3>
+                    <h6 class="news-source" id="news-source">Lifehacker.com · 11/7/2023, 5:00:00 AM</h6>
+                    <p class="news-desc" id="news-desc">Most of us do at least some (if not the majority of) our
+                        shopping online now, but there are things we give up for that convenience. You can’t actually
+                        hold the item in your hands to see if reality lives up to the product description, so we often
+                        rely on bot-i…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/158D8/production/_131508288_gettyimages-1736828131-1.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Who are the Republican candidates to be US House Speaker?</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/23/2023, 9:02:51 PM</h6>
+                    <p class="news-desc" id="news-desc">Republicans are again searching for a new nominee after Jim
+                        Jordan's Speaker bid fell apart last week.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/12F3B/production/_131572677_capture.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Fukushima: US buys Japan seafood to counter China ban</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/31/2023, 10:16:36 AM</h6>
+                    <p class="news-desc" id="news-desc">The US ambassador to Japan said Washington may also look into
+                        other ways to help counter China's ban.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/FE93/production/_131717156_gettyimages-537657818.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US stamp sells for a record-breaking $2m</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/14/2023, 4:15:03 AM</h6>
+                    <p class="news-desc" id="news-desc">Known for its rarity and unintentional printing error, the
+                        Inverted Jenny stamp dates back to 1918.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/27D2/production/_131649101_2a09ea638fdadeaf0afda720a5a6f9b583189af0.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US warns Israel against reoccupying Gaza after war</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/8/2023, 7:26:55 PM</h6>
+                    <p class="news-desc" id="news-desc">Secretary of State Antony Blinken says Gaza and the West Bank
+                        should be united under the Palestinian Authority.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/3AA2/production/_131701051_vicaro.png"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">International mafia bust shows US-Italy crime links still strong</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/12/2023, 12:13:32 AM</h6>
+                    <p class="news-desc" id="news-desc">While decades of prosecutions weakened the US and Italian mafia,
+                        transatlantic relations remain strong.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/2406/production/_131522290_de27.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Mexico braces for 'extremely dangerous' Hurricane Otis</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/25/2023, 8:26:46 AM</h6>
+                    <p class="news-desc" id="news-desc">US meteorologists warn of a "potentially catastrophic" storm
+                        Otis when it makes landfall in southern Mexico.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/E1EF/production/_131793875_gettyimages-1730842169-1.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">How the Israel-Hamas hostage deal came together</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/23/2023, 4:52:12 AM</h6>
+                    <p class="news-desc" id="news-desc">The "excruciating process" involved four countries, spy masters
+                        and presidential calls, a US official says.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/ebad3b6978e850522f1f256fe6fde6dc.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">First Official Space Force Painting Features Perplexing Clash With Enemy
+                        Satellite</h3>
+                    <h6 class="news-source" id="news-source">Gizmodo.com · 10/25/2023, 11:25:00 PM</h6>
+                    <p class="news-desc" id="news-desc">In yet another example of awkward branding, Space Force has
+                        unveiled a retrofuturistic painting depicting a confrontation in low Earth orbit, leaving us
+                        with lots to unpack.Read more...</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/45d15d29e7fa9755907718808a922932.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Lawmakers Say FBI Can Keep Its Prized Surveillance Tool, but It'll Need a
+                        Warrant</h3>
+                    <h6 class="news-source" id="news-source">Gizmodo.com · 11/7/2023, 11:59:00 PM</h6>
+                    <p class="news-desc" id="news-desc">A rare bipartisan coalition of lawmakers has teamed up to
+                        propose major privacy reforms that could fundamentally reign in the US government’s most
+                        powerful domestic surveillance tools.Read more...</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/137FE/production/_131507897_police.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US police chief’s son on run for shooting two officers</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/24/2023, 1:55:33 AM</h6>
+                    <p class="news-desc" id="news-desc">The Nashville police chief says he has minimal contact with his
+                        son, who he said is a convicted felon</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/CFDE/production/_131441235_wadea_al_fayoume.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Man pleads not guilty to murder of US Muslim boy</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/31/2023, 12:28:18 AM</h6>
+                    <p class="news-desc" id="news-desc">Joseph Czuba is accused of killing Wadea Al-Fayoume in a hate
+                        crime linked to the Israel-Hamas war.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/20EB/production/_131572480_43aaad09e9e362bcd3a6914c0178557ca6bb97c30_124_4767_26831000x563.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Israel Gaza: US rejects global calls for ceasefire</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/31/2023, 11:34:16 AM</h6>
+                    <p class="news-desc" id="news-desc">The American decision comes amid loud calls for a humanitarian
+                        truce at the United Nations.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/54FB/production/_131655712_51d2d454188e4264c795bb1294e260185481ab520_581_5536_31155536x3115.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Iran-backed Yemeni rebels shoot down US drone</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/9/2023, 6:57:23 AM</h6>
+                    <p class="news-desc" id="news-desc">Washington is on alert for activity by Iran-backed groups in the
+                        region in the wake of the Israel-Gaza war.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/150D8/production/_131723268_mikejohnson.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US House to consider stopgap measure to avert shutdown</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/14/2023, 10:59:52 PM</h6>
+                    <p class="news-desc" id="news-desc">Republican Speaker Mike Johnson will face his first major test
+                        as his plan goes before the House.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/100B9/production/_131612756_5945b989b4d6ef8532a156af26a6d7635ec730bb.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Four surprises that could upend the 2024 US election</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/5/2023, 7:27:17 AM</h6>
+                    <p class="news-desc" id="news-desc">A year ahead of the US presidential election, and anything could
+                        happen.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/C971/production/_131596515_gettyimages-1249303053.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">The US is quietly arming Taiwan to the teeth</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/6/2023, 7:33:47 AM</h6>
+                    <p class="news-desc" id="news-desc">America is using its own money to send weapons to a place it
+                        officially doesn't recognise.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/1774E/production/_131787069_p0gv405h.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US officials warn against dangers of deep-frying turkeys</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/22/2023, 8:11:44 AM</h6>
+                    <p class="news-desc" id="news-desc">Firefighters and other agencies have published videos showing
+                        the hazards ahead of Thanksgiving.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/1334B/production/_131776687_gettyimages-1780555263.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US court rolls back key voting rights protection</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/22/2023, 12:50:47 AM</h6>
+                    <p class="news-desc" id="news-desc">Only the US attorney general, not individuals, can appeal racist
+                        voting practices, a federal court finds.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/83B3/production/_115651733_breaking-large-promo-nc.png"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US ex-President Jimmy Carter's wife Rosalynn dies aged 96</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/20/2023, 3:27:03 AM</h6>
+                    <p class="news-desc" id="news-desc">The Carter Center confirms that Rosalynn Carter died peacefully
+                        with her family by her side.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/ED5F/production/_131776706_16b99dd3e8243789813c358d83ebd7e94c16ffff.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US says Israel hostage deal 'closer than ever'</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/21/2023, 5:42:29 AM</h6>
+                    <p class="news-desc" id="news-desc">A deal to release Israeli hostages held in Gaza is "closer than
+                        ever before", a senior US official says.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/510E/production/_131305702_abercrombie_index_jeffries_976-2.png"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Abercrombie &amp; Fitch and ex-CEO face sex-trafficking lawsuit</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/27/2023, 10:36:43 PM</h6>
+                    <p class="news-desc" id="news-desc">The US fashion brand is jointly accused with its former CEO of
+                        participating in a sex-trafficking venture.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/07E3/production/_131491020_gettyimages-1743276061.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">American Jews and Palestinians face fear and hatred</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/23/2023, 7:59:43 AM</h6>
+                    <p class="news-desc" id="news-desc">As the war between Israel and Hamas intensifies, so have attacks
+                        against both communities in the US.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/21AA/production/_131581680_p0gpzl1n.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">These trafficked animals found shelter in Los Angeles</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/1/2023, 3:14:15 AM</h6>
+                    <p class="news-desc" id="news-desc">The US Fish and Wildlife Service has launched a pilot program to
+                        care for the rescued animals in zoos.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/181CF/production/_131776789_p0gtwh1j.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Biden pardons Thanksgiving turkeys on his birthday</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/21/2023, 5:03:01 AM</h6>
+                    <p class="news-desc" id="news-desc">The US president pardoned 'Liberty' and 'Bell' and joked about
+                        his age before confusing two pop stars.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/D661/production/_131618845_311dfa57e20ae822e053d015642b613ce789277a.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Israel-Gaza war: Ceasefire would allow Hamas to regroup, says Blinken</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/5/2023, 3:10:18 AM</h6>
+                    <p class="news-desc" id="news-desc">The US Secretary of State says such a step would allow Hamas to
+                        carry out further attacks.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/16662/production/_131664719_gettyimages-1783085038.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">'Provocative' Vivek Ramaswamy border comments anger Canadians</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/10/2023, 3:30:48 AM</h6>
+                    <p class="news-desc" id="news-desc">The Republican argued the US should build a wall on the Canadian
+                        border to halt the flow of fentanyl.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/2715/production/_129750001_1dd1b383d243c38a83f27d131f562f525931fc1f.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Former OpenAI boss Sam Altman boss pictured at firm's HQ amid reports of return
+                    </h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/20/2023, 6:34:17 AM</h6>
+                    <p class="news-desc" id="news-desc">Sam Altman posts a selfie from the firm's US head office 48
+                        hours after his shock ouster from the company.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/0191/production/_131510400_14e3fe5ed7fcfe83cc8891db593a598032e74f9b0_224_5500_30945500x3094.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Senator Bob Menendez pleads not guilty to foreign agent charge</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/24/2023, 2:24:07 AM</h6>
+                    <p class="news-desc" id="news-desc">The US Senator is accused of using his influence and power in
+                        ways that benefitted Egypt.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/17B01/production/_131652079_gettyimages-513093348.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Peter Nygard: Fashion mogul guilty of sex assaults</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/13/2023, 12:56:31 AM</h6>
+                    <p class="news-desc" id="news-desc">The 82-year-old is still facing a trial in Montreal and
+                        extradition to the US.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/11A1E/production/_131722227_6d6a1260ceccb09a2a9c977335f10ab4b2b395e6.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Arab and Muslim leaders blame West for Gaza misery</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/14/2023, 11:12:43 PM</h6>
+                    <p class="news-desc" id="news-desc">Leaders accuse the US and other powers of hypocrisy over
+                        Israel's actions and warn of repercussions.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/34368a3cb6a6cf94ef623762942f712c.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Startup Wants to Land Space Drugs Factory in Australia After US Denies Reentry
+                    </h3>
+                    <h6 class="news-source" id="news-source">Gizmodo.com · 10/23/2023, 11:05:00 PM</h6>
+                    <p class="news-desc" id="news-desc">After struggling to land its first in-space manufacturing
+                        capsule in the U.S., Varda Space is now looking down under for future batches of space drugs to
+                        reenter through Earth’s atmosphere.Read more...</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/17C74/production/_131769379_d49e590a661f69b11af570fcb3c3416866a602c1192_119_3322_18691000x563.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Burna Boy and Rema win inaugural Billboard Afrobeats awards</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/20/2023, 4:03:05 PM</h6>
+                    <p class="news-desc" id="news-desc">The Nigerian artists are the first winners in the new category
+                        at the Billboard Music Awards in the US.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/7D56/production/_131368023_airship-index-getty.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Five US troops die in training air crash in eastern Mediterranean</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/13/2023, 4:32:51 AM</h6>
+                    <p class="news-desc" id="news-desc">The service members died in a helicopter crash in a region where
+                        the US has boosted operations.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/7FC8/production/_131721723_81dbc5cd1130fedda065a4f0b1b2ceb7c5b0b1d2.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Gaza war: US and UK raise pressure on Israel to protect hospitals</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/14/2023, 9:09:19 PM</h6>
+                    <p class="news-desc" id="news-desc">US and UK say civilians must protected, as Israel shows video it
+                        says shows a Hamas base under one medical facility.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/83B3/production/_115651733_breaking-large-promo-nc.png"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Emmer drops out of Speaker race before vote</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/25/2023, 3:44:42 AM</h6>
+                    <p class="news-desc" id="news-desc">Tom Emmer has dropped out of the race to become Speaker of the
+                        US House of Representatives, only hours after being nominated</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/141FB/production/_131572428_putinepa.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US rejects Putin claim that West organised anti-Jewish airport mob</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/31/2023, 6:16:23 AM</h6>
+                    <p class="news-desc" id="news-desc">Hundreds stormed an airport in southern Russia on Sunday ahead
+                        of the arrival of a flight from Israel.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/12CAF/production/_131557967_mediaitem131557966.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Matthew Perry: Friends TV comedy star dies at 54 - US reports</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/29/2023, 9:36:41 AM</h6>
+                    <p class="news-desc" id="news-desc">The American actor was best known for playing Chandler Bing in
+                        the hit '90s TV sitcom Friends.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/17BC4/production/_130102279_gettyimages-1216879737.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Neuschwanstein: US man charged over deadly attack at famed German castle</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 10/27/2023, 5:26:19 AM</h6>
+                    <p class="news-desc" id="news-desc">The suspect is accused of pushing two women into a ravine at
+                        Neuschwanstein Castle and raping one of them.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/AE69/production/_131794644_gettyimages-1686448431.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US thwarts plot to kill Sikh separatist on American soil - report</h3>
+                    <h6 class="news-source" id="news-source">BBC News · 11/23/2023, 2:56:32 AM</h6>
+                    <p class="news-desc" id="news-desc">The target was Sikh separatist Gurpatwant Singh Pannun, the
+                        Financial Times reports.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.insider.com/65391afd0487ff031cadbd8c?width=1200&amp;format=jpeg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">The US economy is booming</h3>
+                    <h6 class="news-source" id="news-source">Business Insider · 10/26/2023, 7:34:24 PM</h6>
+                    <p class="news-desc" id="news-desc">The economy is still growing as GDP rose 4.9% an annualized rate
+                        in the third quarter, a new data report shows.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/620d753f65c5f00be262e06d108f746a.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Gift Ideas for Disaster Preppers</h3>
+                    <h6 class="news-source" id="news-source">Gizmodo.com · 11/17/2023, 1:05:00 AM</h6>
+                    <p class="news-desc" id="news-desc">Climate-related disasters can trap people in their homes, leave
+                        them without power for extended periods, trigger mass evacuations, and many other disruptions to
+                        the safety and conveniences most of us are accustomed to. As these events become more frequent
+                        and…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/35972f1ab605ade65c36f25f0772bf8f.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">The Marvels' Blazing Final Trailer Is Here</h3>
+                    <h6 class="news-source" id="news-source">Gizmodo.com · 11/7/2023, 9:54:00 AM</h6>
+                    <p class="news-desc" id="news-desc">The first Marvels trailer dropped all the way back in April,
+                        giving us our first good glimpse of the movie’s superhero-switcheroo hijinks. Now, of course, we
+                        know a lot more about the Captain Marvel sequel—but of course Marvel can’t resist one last tease
+                        befo…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/6e773827a0bd5893f3d5a39975e9c238.png"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Updates From Deadpool 3, Rick &amp; Morty, and More</h3>
+                    <h6 class="news-source" id="news-source">Gizmodo.com · 10/23/2023, 9:00:00 PM</h6>
+                    <p class="news-desc" id="news-desc">Jason Blum wants the Spawn movie to feel like a Blumhouse
+                        production. Winnie the Pooh: Blood and Honey director Rhys Frake-Waterfield teases the even
+                        bigger deaths of the sequel. Plus, the co-existence of Godzilla Minus One and Monarch: Legacy of
+                        Monsters giv…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/65a692e004594180db0fca4f3d2067b7.png"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Apple iMac (2023) Review: One Foot in the Future and the Past</h3>
+                    <h6 class="news-source" id="news-source">Gizmodo.com · 11/17/2023, 2:15:00 AM</h6>
+                    <p class="news-desc" id="news-desc">It’s been over two years since Apple released its all-in-one
+                        desktop after skipping the entire M2 generation of chips, leaving us wondering when the iMac
+                        would make its dramatic return. The iMac comes in seven fun colors, is powered by Apple’s fancy
+                        new M3, a…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/9f7bd4bb6fa039ca8bd70e0255b8db85.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">How Star Wars Nostalgia Helps Disney Parks Design Its Fandom Merch</h3>
+                    <h6 class="news-source" id="news-source">Gizmodo.com · 11/23/2023, 5:00:00 AM</h6>
+                    <p class="news-desc" id="news-desc">Holiday gifting season is upon us and if you’ve ever wondered
+                        how apparel at Disney Parks goes from idea to execution into a fandom must-buy, designer Tatiana
+                        Salaverria is a great place to start. io9 spoke with her about the process behind theme-park
+                        merch i…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/3dc2fe0bed6e7221b6af696df8b00586.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">10 Gifts and Toys for the Science Lover in Your Life</h3>
+                    <h6 class="news-source" id="news-source">Gizmodo.com · 11/17/2023, 1:05:00 AM</h6>
+                    <p class="news-desc" id="news-desc">Too often, the everyday science of our lives goes unappreciated,
+                        from the electrical engineering that powered your toaster this morning to the astronomical
+                        insights that allow you to understand what appears in the sky at night. It can be hard to find
+                        tools an…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.insider.com/654895bf36d588dc55cb337a?width=1200&amp;format=jpeg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Israel says it dropped 6,000 bombs on Gaza in one week. That's almost as many as
+                        what the US dropped in Afghanistan in one year.</h3>
+                    <h6 class="news-source" id="news-source">Business Insider · 11/6/2023, 4:21:31 PM</h6>
+                    <p class="news-desc" id="news-desc">According to the US Air Forces Central Command, the US dropped
+                        7,423 bombs in Afghanistan in 2019.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/09/nvidia_h100_hero_3-760x380.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US surprises Nvidia by speeding up new AI chip export ban</h3>
+                    <h6 class="news-source" id="news-source">Ars Technica · 10/25/2023, 4:07:12 AM</h6>
+                    <p class="news-desc" id="news-desc">Nvidia tried to end-run restrictions with new designs, but US
+                        govt said not so fast.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/11/GettyImages-520559120-760x380.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">A lithium mine for EV batteries is coming to Arkansas, says Exxon</h3>
+                    <h6 class="news-source" id="news-source">Ars Technica · 11/14/2023, 1:59:10 AM</h6>
+                    <p class="news-desc" id="news-desc">With EV incentives tied to domestic battery content, US lithium
+                        mines are needed.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/11/GettyImages-1768685410-760x380.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Elon Musk’s antisemitic post draws rebuke from White House; IBM pulls X ads</h3>
+                    <h6 class="news-source" id="news-source">Ars Technica · 11/18/2023, 1:01:45 AM</h6>
+                    <p class="news-desc" id="news-desc">Musk accused of repeating lie behind most fatal antisemitic act
+                        in US history.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/10/whitehouse-neural-sky-760x380.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Biden issues sweeping executive order that touches AI risk, deepfakes, privacy
+                    </h3>
+                    <h6 class="news-source" id="news-source">Ars Technica · 10/30/2023, 11:43:55 PM</h6>
+                    <p class="news-desc" id="news-desc">Order details US admin's approach to AI safety, media
+                        authenticity, job loss, and more.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/11/GettyImages-499159807-760x380.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Determinism vs. free will: A scientific showdown</h3>
+                    <h6 class="news-source" id="news-source">Ars Technica · 11/12/2023, 7:00:15 PM</h6>
+                    <p class="news-desc" id="news-desc">Two books delve into what science may tell us about whether we
+                        have free will.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/7B2uzoTVBEchs0JQ490EgA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NjE-/https://s.yimg.com/os/creatr-uploaded-images/2023-11/82d478d0-7dfb-11ee-bf99-08b657f9f235"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Google is rolling out tools that let advertisers create AI-generated content
+                    </h3>
+                    <h6 class="news-source" id="news-source">Engadget · 11/8/2023, 3:02:55 PM</h6>
+                    <p class="news-desc" id="news-desc">Google is rolling out a new feature that allow advertisers to
+                        create AI generated content using the same technology as the Bard chatbot, confirming a report
+                        from earlier this year. The feature is now available in beta on Google's Performance Max
+                        advertising p…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://a.fsdn.com/sd/topics/usa_64.png" alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US Inflation Falls To 3.2% in October</h3>
+                    <h6 class="news-source" id="news-source">Slashdot.org · 11/14/2023, 8:45:00 PM</h6>
+                    <p class="news-desc" id="news-desc">US inflation fell to 3.2 per cent in October, lower than
+                        economists had expected and the first decline for four months. From a report: Consumer prices
+                        rose 3.2 per cent year on year in October, down from an annual rate of 3.7 per cent in
+                        September. The annual…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.insider.com/653fc6d4356802a56be76441?width=1200&amp;format=jpeg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">US Mortgage Rates: Mortgage Rates by State</h3>
+                    <h6 class="news-source" id="news-source">Business Insider · 10/31/2023, 5:21:13 AM</h6>
+                    <p class="news-desc" id="news-desc">Find the best mortgage rates by state with our comprehensive
+                        rate data and calculators. Find the perfect home loan size tailored to your location and
+                        financial needs.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.insider.com/654a4c9a3cc84b4dfafdaa2e?width=1200&amp;format=jpeg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">The US Army needs tanks to win a war in the Pacific, but it knows the Abrams
+                        isn't the right tank for the job</h3>
+                    <h6 class="news-source" id="news-source">Business Insider · 11/8/2023, 6:17:01 AM</h6>
+                    <p class="news-desc" id="news-desc">Russia and China have studied the US Army's tanks, and they're
+                        fielding new weapons that present more potent threats to US armor.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.insider.com/6555f61422cf74a573984171?width=1200&amp;format=jpeg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Video shows the moment Antony Blinken winces after Biden calls China's Xi a
+                        dictator, upending months of careful diplomacy</h3>
+                    <h6 class="news-source" id="news-source">Business Insider · 11/16/2023, 6:01:23 PM</h6>
+                    <p class="news-desc" id="news-desc">The US president appeared to veer off script after a meeting on
+                        the sidelines of the APEC summit designed to smooth US-China relations.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.insider.com/655189e7385143459e8bd2d8?width=1200&amp;format=jpeg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">The US is sending more Patriot defense systems to the Middle East. They cost
+                        $1.1 billion each.</h3>
+                    <h6 class="news-source" id="news-source">Business Insider · 11/13/2023, 11:49:49 AM</h6>
+                    <p class="news-desc" id="news-desc">The US recently sent 6 Patriot missile defense systems to the
+                        Middle East following recent attacks on US troops, The Wall Street Journal reported.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/11/GettyImages-1543156724-760x380.jpeg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">AI with 90% error rate forces elderly out of rehab, nursing homes, suit claims
+                    </h3>
+                    <h6 class="news-source" id="news-source">Ars Technica · 11/17/2023, 6:37:38 AM</h6>
+                    <p class="news-desc" id="news-desc">For the largest health insurer in the US, AI's error rate is
+                        like a feature, not a bug.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/057119aeec09660f2b52f979607b3f50.png"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">George R.R. Martin Has No (New) Pages</h3>
+                    <h6 class="news-source" id="news-source">Gizmodo.com · 11/21/2023, 11:15:00 PM</h6>
+                    <p class="news-desc" id="news-desc">Well, maybe he does—after all, part of writing a novel as
+                        long-in-the-works and expansive as The Winds of Winter, the latest novel in the Song of Ice and
+                        Fire series that gave us Game of Thrones, is going back and revising things. But if you were
+                        hoping autho…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/XjJ0EV2DjFD0RkUb99w6Xw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03MDQ-/https://s.yimg.com/os/creatr-uploaded-images/2023-11/8d172570-7e4d-11ee-9fff-8f293f4da3e7"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Amazon Prime now comes with discounted access to One Medical health services
+                    </h3>
+                    <h6 class="news-source" id="news-source">Engadget · 11/8/2023, 11:15:00 PM</h6>
+                    <p class="news-desc" id="news-desc">Amazon Prime subscribers now have access to a deeply discounted
+                        One Medical membership for primary care services. The company announced today that Prime members
+                        can sign up for just $99 a year, or $9 per month. A One Medical membership typically costs $199
+                        an…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/Tu4jo7TmY4LNbJ4_0TnN1g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/os/creatr-uploaded-images/2023-11/e73452b0-83d6-11ee-8dd9-05032f22c6ae"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Google is testing community-sourced notes for search results</h3>
+                    <h6 class="news-source" id="news-source">Engadget · 11/16/2023, 12:30:22 AM</h6>
+                    <p class="news-desc" id="news-desc">Google is experimenting with a feature that would allow people
+                        to add their own notes to search results for anyone to see. In theory, this would make results
+                        more helpful, providing a bit of human perspective — like feedback on recipe links or tips
+                        relating t…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.insider.com/64faebed3d3923001976834f?width=1200&amp;format=jpeg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Everything you're hearing right now about AI wiping out humans is a big con</h3>
+                    <h6 class="news-source" id="news-source">Business Insider · 11/1/2023, 8:06:15 PM</h6>
+                    <p class="news-desc" id="news-desc">Prominent industry voices are pushing back on the idea that AI
+                        will wipe us out — and they're determined to make us see it as the convenient distraction that
+                        it really is.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://cdn.mos.cms.futurecdn.net/YFAm5EVhQxSGQcAMDWpesf-1200-80.jpg" alt="news-image"
+                        id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">One Hand Operation Plus gains an update preparing us for One UI 6</h3>
+                    <h6 class="news-source" id="news-source">Android Central · 10/23/2023, 11:53:10 PM</h6>
+                    <p class="news-desc" id="news-desc">Samsung rolls out a One Hand Operation Plus update which has us
+                        looking ahead to One UI 6.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/be48b843850c5a17cc288af8eb8078d0.jpg"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">What People Are Getting Wrong This Week: The 'Dead Internet Theory' Isn't Real,
+                        I Swear</h3>
+                    <h6 class="news-source" id="news-source">Lifehacker.com · 11/2/2023, 7:30:00 PM</h6>
+                    <p class="news-desc" id="news-desc">Is the internet dead? Proponents of the Dead Internet Theory
+                        believe that the internet, as we understand it, doesn’t exist. It died around 2016, and since
+                        then, everything we see online, from Instagram pictures to this post on Lifehacker, has been
+                        generated b…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://a.fsdn.com/sd/topics/cloud_64.png" alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">Alibaba Cancels Cloud Spinoff, Blames US Chip Sanctions</h3>
+                    <h6 class="news-source" id="news-source">Slashdot.org · 11/17/2023, 7:45:00 AM</h6>
+                    <p class="news-desc" id="news-desc">Alibaba is canceling the scheduled IPO of its cloud division due
+                        to the impact of the U.S. government's CPU export bans to China. The Register reports: The
+                        Chinese e-commerce giant reported the move alongside its calendar Q3 earnings, otherwise a
+                        generally po…</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://a.fsdn.com/sd/topics/australia_64.png" alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">New Agreement Enables US Launches From Australian Spaceports</h3>
+                    <h6 class="news-source" id="news-source">Slashdot.org · 10/28/2023, 2:00:00 PM</h6>
+                    <p class="news-desc" id="news-desc">Jeff Foust reports via SpaceNews: The governments of Australia
+                        and the United States have signed an agreement that could allow American rockets to launch from
+                        Australian spaceports, although it is unclear how much demand there is for them. The U.S. State
+                        Depa…</p>
+                </div>
+            </div>
         </div>
     </main>
 
