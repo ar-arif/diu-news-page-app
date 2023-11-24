@@ -152,3 +152,11 @@ main {
 .news-source {
     margin-block: 12px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    nav {
+        font-size: .7rem;
+        padding: 0 10px;
+    }
+}
